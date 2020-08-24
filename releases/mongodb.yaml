@@ -9,6 +9,7 @@ metadata:
     fluxcd.io/tag.chart-image: semver:~4.0
 spec:
   releaseName: mongodb
+  replicas: 0
   chart:
     repository: https://kubernetes-charts.storage.googleapis.com/
     name: mongodb
